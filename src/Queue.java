@@ -20,7 +20,8 @@ public class Queue<T> {
 
             while(!StackA.isEmpty()){
                 T e = StackA.pop();
-                StackB.push(e);}
+                StackB.push(e);
+            }
         }
 
         // unpack StackB
@@ -32,12 +33,8 @@ public class Queue<T> {
         return temp;
     }
 
-    public int size() {
-        return size;
-    }
+    public int size() { return size; }
 
-    public boolean isEmpty() {
-        return size == 0;
-    }
+    public boolean isEmpty() { return size == 0; }
 
 }
